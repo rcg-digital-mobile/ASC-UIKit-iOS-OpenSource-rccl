@@ -126,6 +126,10 @@
 		D4AFF1CF25ECE8AD002C001C /* PostPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFF1CD25ECE8AD002C001C /* PostPreviewTableViewCell.swift */; };
 		D4AFF23225ED1E7C002C001C /* GlobalPostsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFF23125ED1E7C002C001C /* GlobalPostsFeedViewController.swift */; };
 		D4AFF23625ED1F88002C001C /* GlobalPostsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFF23525ED1F88002C001C /* GlobalPostsDataSource.swift */; };
+		EA9660292CAED957003EC311 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9660272CAED957003EC311 /* RealmSwift.xcframework */; };
+		EA96602A2CAED957003EC311 /* RealmSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA9660272CAED957003EC311 /* RealmSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA96602B2CAED957003EC311 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9660282CAED957003EC311 /* Realm.xcframework */; };
+		EA96602C2CAED957003EC311 /* Realm.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA9660282CAED957003EC311 /* Realm.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +178,8 @@
 				A0BD0B4926DDE0E30054088B /* AmityUIKitLiveStream.framework in Embed Frameworks */,
 				68F5D9FF2B481E4700A9FA0D /* AmityUIKit4.framework in Embed Frameworks */,
 				D478D16A26240A5E006EA140 /* AmityUIKit.framework in Embed Frameworks */,
+				EA96602A2CAED957003EC311 /* RealmSwift.xcframework in Embed Frameworks */,
+				EA96602C2CAED957003EC311 /* Realm.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +258,8 @@
 		D4AFF1CD25ECE8AD002C001C /* PostPreviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		D4AFF23125ED1E7C002C001C /* GlobalPostsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalPostsFeedViewController.swift; sourceTree = "<group>"; };
 		D4AFF23525ED1F88002C001C /* GlobalPostsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalPostsDataSource.swift; sourceTree = "<group>"; };
+		EA9660272CAED957003EC311 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../../../../Downloads/amitysdk/Frameworks/RealmSwift.xcframework; sourceTree = "<group>"; };
+		EA9660282CAED957003EC311 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../../../../Downloads/amitysdk/Frameworks/Realm.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,8 +286,10 @@
 			files = (
 				688A703E2C808EDB00527488 /* SharedFrameworks in Frameworks */,
 				A0BD0B4826DDE0E30054088B /* AmityUIKitLiveStream.framework in Frameworks */,
+				EA9660292CAED957003EC311 /* RealmSwift.xcframework in Frameworks */,
 				68F5D9FE2B481E4700A9FA0D /* AmityUIKit4.framework in Frameworks */,
 				D478D16926240A5E006EA140 /* AmityUIKit.framework in Frameworks */,
+				EA96602B2CAED957003EC311 /* Realm.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +511,8 @@
 		B78DA4A824BED83100EE902B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA9660282CAED957003EC311 /* Realm.xcframework */,
+				EA9660272CAED957003EC311 /* RealmSwift.xcframework */,
 				68F5D9FD2B481E4700A9FA0D /* AmityUIKit4.framework */,
 				684AE1402B0C9B4E00FD7270 /* AmityUIKit4.framework */,
 				684AE13D2B0C9B4700FD7270 /* AmityUIKit4.framework */,

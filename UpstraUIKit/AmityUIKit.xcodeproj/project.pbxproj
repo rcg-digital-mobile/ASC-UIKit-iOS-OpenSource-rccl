@@ -660,6 +660,8 @@
 		D4D7683E26006D7000AD4367 /* AmitySettingContentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7683D26006D7000AD4367 /* AmitySettingContentIcon.swift */; };
 		D4EC11E525B93DCE0095F507 /* AmityPostSharingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC11E425B93DCE0095F507 /* AmityPostSharingSettings.swift */; };
 		D4EC11EA25B93E000095F507 /* AmityPostSharingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC11E925B93E000095F507 /* AmityPostSharingTarget.swift */; };
+		EA96603B2CAEDA5A003EC311 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA96602D2CAEDA34003EC311 /* Realm.xcframework */; };
+		EA96603D2CAEDA5A003EC311 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA96602E2CAEDA35003EC311 /* RealmSwift.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1333,6 +1335,10 @@
 		D4D7683D26006D7000AD4367 /* AmitySettingContentIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmitySettingContentIcon.swift; sourceTree = "<group>"; };
 		D4EC11E425B93DCE0095F507 /* AmityPostSharingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityPostSharingSettings.swift; sourceTree = "<group>"; };
 		D4EC11E925B93E000095F507 /* AmityPostSharingTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityPostSharingTarget.swift; sourceTree = "<group>"; };
+		EA96602D2CAEDA34003EC311 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Realm.xcframework; sourceTree = "<group>"; };
+		EA96602E2CAEDA35003EC311 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; path = RealmSwift.xcframework; sourceTree = "<group>"; };
+		EAF377BF2CAED89F007AA244 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../../../Downloads/amitysdk/Frameworks/Realm.xcframework; sourceTree = "<group>"; };
+		EAF377C02CAED89F007AA244 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../../../Downloads/amitysdk/Frameworks/RealmSwift.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1342,6 +1348,8 @@
 			files = (
 				688A703A2C808EC300527488 /* SharedFrameworks in Frameworks */,
 				68F5D9FA2B481E4000A9FA0D /* AmityUIKit4.framework in Frameworks */,
+				EA96603B2CAEDA5A003EC311 /* Realm.xcframework in Frameworks */,
+				EA96603D2CAEDA5A003EC311 /* RealmSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2069,6 +2077,10 @@
 		72928FA524EA834A00BF566D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAF377BF2CAED89F007AA244 /* Realm.xcframework */,
+				EAF377C02CAED89F007AA244 /* RealmSwift.xcframework */,
+				EA96602D2CAEDA34003EC311 /* Realm.xcframework */,
+				EA96602E2CAEDA35003EC311 /* RealmSwift.xcframework */,
 				68F5D9F92B481E4000A9FA0D /* AmityUIKit4.framework */,
 				6857F6C82B2AE15C00AC2914 /* AmityUIKit4.framework */,
 				68EF84A529B077CF00C7EDEC /* RealmSwift.xcframework */,
@@ -4558,6 +4570,8 @@
 				Base,
 			);
 			mainGroup = 72A3502624EA811500DA9D46;
+			packageReferences = (
+			);
 			productRefGroup = 72A3503124EA811500DA9D46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

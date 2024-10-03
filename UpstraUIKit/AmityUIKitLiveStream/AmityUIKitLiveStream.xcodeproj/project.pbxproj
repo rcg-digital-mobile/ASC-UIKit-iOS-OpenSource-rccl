@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,8 @@
 		A0BD0B5E26DF37160054088B /* LiveStreamBroadcastVC+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD0B5D26DF37160054088B /* LiveStreamBroadcastVC+Keyboard.swift */; };
 		A0BD0B6026DF377A0054088B /* LiveStreamBroadcastVC+CoverImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD0B5F26DF377A0054088B /* LiveStreamBroadcastVC+CoverImagePicker.swift */; };
 		A0BD0B6226DF3A3F0054088B /* LiveStreamBroadcast+UIContainerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD0B6126DF3A3F0054088B /* LiveStreamBroadcast+UIContainerState.swift */; };
+		EA9660362CAEDA46003EC311 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9660342CAEDA46003EC311 /* Realm.xcframework */; };
+		EA9660382CAEDA46003EC311 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9660352CAEDA46003EC311 /* RealmSwift.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,12 @@
 		A0BD0B5D26DF37160054088B /* LiveStreamBroadcastVC+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiveStreamBroadcastVC+Keyboard.swift"; sourceTree = "<group>"; };
 		A0BD0B5F26DF377A0054088B /* LiveStreamBroadcastVC+CoverImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiveStreamBroadcastVC+CoverImagePicker.swift"; sourceTree = "<group>"; };
 		A0BD0B6126DF3A3F0054088B /* LiveStreamBroadcast+UIContainerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiveStreamBroadcast+UIContainerState.swift"; sourceTree = "<group>"; };
+		EA9660342CAEDA46003EC311 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../Realm.xcframework; sourceTree = "<group>"; };
+		EA9660352CAEDA46003EC311 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../RealmSwift.xcframework; sourceTree = "<group>"; };
+		EAF377972CAED622007AA244 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../Shared/Realm.xcframework; sourceTree = "<group>"; };
+		EAF377982CAED622007AA244 /* RealmSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../Shared/RealmSwift.xcframework; sourceTree = "<group>"; };
+		EAF377C62CAED8FB007AA244 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../../../../Downloads/amitysdk/Frameworks/Realm.xcframework; sourceTree = "<group>"; };
+		EAF377C72CAED8FB007AA244 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../../../../Downloads/amitysdk/Frameworks/RealmSwift.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,8 @@
 			files = (
 				688A703C2C808ECF00527488 /* SharedFrameworks in Frameworks */,
 				A0BD0B3426DDD9820054088B /* AmityUIKit.framework in Frameworks */,
+				EA9660362CAEDA46003EC311 /* Realm.xcframework in Frameworks */,
+				EA9660382CAEDA46003EC311 /* RealmSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +165,12 @@
 		A0BD0B2026DCE5310054088B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAF377972CAED622007AA244 /* Realm.xcframework */,
+				EAF377982CAED622007AA244 /* RealmSwift.xcframework */,
+				EAF377C62CAED8FB007AA244 /* Realm.xcframework */,
+				EAF377C72CAED8FB007AA244 /* RealmSwift.xcframework */,
+				EA9660342CAEDA46003EC311 /* Realm.xcframework */,
+				EA9660352CAEDA46003EC311 /* RealmSwift.xcframework */,
 				A0BD0B3726DDDE880054088B /* AmitySDK.xcframework */,
 				A0BD0B3326DDD9820054088B /* AmityUIKit.framework */,
 				A0BD0B2326DCE5310054088B /* AmityLiveVideoBroadcastKit.xcframework */,
