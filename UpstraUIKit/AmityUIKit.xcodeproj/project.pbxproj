@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -660,8 +660,6 @@
 		D4D7683E26006D7000AD4367 /* AmitySettingContentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7683D26006D7000AD4367 /* AmitySettingContentIcon.swift */; };
 		D4EC11E525B93DCE0095F507 /* AmityPostSharingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC11E425B93DCE0095F507 /* AmityPostSharingSettings.swift */; };
 		D4EC11EA25B93E000095F507 /* AmityPostSharingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC11E925B93E000095F507 /* AmityPostSharingTarget.swift */; };
-		EA4DA0972CB6FF1D0093BECC /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DA0952CB6FF1D0093BECC /* Realm.xcframework */; };
-		EA4DA0992CB6FF1D0093BECC /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DA0962CB6FF1D0093BECC /* RealmSwift.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1333,8 +1331,6 @@
 		D4D7683D26006D7000AD4367 /* AmitySettingContentIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmitySettingContentIcon.swift; sourceTree = "<group>"; };
 		D4EC11E425B93DCE0095F507 /* AmityPostSharingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityPostSharingSettings.swift; sourceTree = "<group>"; };
 		D4EC11E925B93E000095F507 /* AmityPostSharingTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityPostSharingTarget.swift; sourceTree = "<group>"; };
-		EA4DA0952CB6FF1D0093BECC /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../../ThirdParty/Realm.xcframework; sourceTree = "<group>"; };
-		EA4DA0962CB6FF1D0093BECC /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../../ThirdParty/RealmSwift.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1344,8 +1340,6 @@
 			files = (
 				688A703A2C808EC300527488 /* SharedFrameworks in Frameworks */,
 				68F5D9FA2B481E4000A9FA0D /* AmityUIKit4.framework in Frameworks */,
-				EA4DA0972CB6FF1D0093BECC /* Realm.xcframework in Frameworks */,
-				EA4DA0992CB6FF1D0093BECC /* RealmSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2073,8 +2067,6 @@
 		72928FA524EA834A00BF566D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA4DA0952CB6FF1D0093BECC /* Realm.xcframework */,
-				EA4DA0962CB6FF1D0093BECC /* RealmSwift.xcframework */,
 				68F5D9F92B481E4000A9FA0D /* AmityUIKit4.framework */,
 				6857F6C82B2AE15C00AC2914 /* AmityUIKit4.framework */,
 				D45D459F26203D57008F7C2C /* AmitySDK.xcframework */,

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -388,8 +388,6 @@
 		A9F4EC102BB42FC5005FDDEA /* MentionTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F4EC0F2BB42FC5005FDDEA /* MentionTextEditor.swift */; };
 		A9FF80E82BBD14660088A317 /* AmityLiveChatPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF80E72BBD14660088A317 /* AmityLiveChatPageViewModel.swift */; };
 		A9FF80EB2BBD49C20088A317 /* AmityMessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF80EA2BBD49C20088A317 /* AmityMessageListViewModel.swift */; };
-		EA4DA09E2CB6FF370093BECC /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DA09C2CB6FF370093BECC /* Realm.xcframework */; };
-		EA4DA0A02CB6FF370093BECC /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DA09D2CB6FF370093BECC /* RealmSwift.xcframework */; };
 		ED08DC482BA2E8B4000DA797 /* AmityEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED08DC472BA2E8B4000DA797 /* AmityEmptyStateView.swift */; };
 		ED4FA84A2BA01123005D6871 /* AmityLiveChatHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4FA8492BA01123005D6871 /* AmityLiveChatHeaderViewModel.swift */; };
 		ED4FA84C2BA01169005D6871 /* ChannelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4FA84B2BA01169005D6871 /* ChannelManager.swift */; };
@@ -795,8 +793,6 @@
 		A9F4EC0F2BB42FC5005FDDEA /* MentionTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionTextEditor.swift; sourceTree = "<group>"; };
 		A9FF80E72BBD14660088A317 /* AmityLiveChatPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityLiveChatPageViewModel.swift; sourceTree = "<group>"; };
 		A9FF80EA2BBD49C20088A317 /* AmityMessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityMessageListViewModel.swift; sourceTree = "<group>"; };
-		EA4DA09C2CB6FF370093BECC /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../../../ThirdParty/Realm.xcframework; sourceTree = "<group>"; };
-		EA4DA09D2CB6FF370093BECC /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../../../ThirdParty/RealmSwift.xcframework; sourceTree = "<group>"; };
 		ED08DC472BA2E8B4000DA797 /* AmityEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityEmptyStateView.swift; sourceTree = "<group>"; };
 		ED4FA8492BA01123005D6871 /* AmityLiveChatHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityLiveChatHeaderViewModel.swift; sourceTree = "<group>"; };
 		ED4FA84B2BA01169005D6871 /* ChannelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelManager.swift; sourceTree = "<group>"; };
@@ -808,8 +804,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				688A70382C808EBA00527488 /* SharedFrameworks in Frameworks */,
-				EA4DA0A02CB6FF370093BECC /* RealmSwift.xcframework in Frameworks */,
-				EA4DA09E2CB6FF370093BECC /* Realm.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1231,8 +1225,6 @@
 		684AE10D2B0C5D2000FD7270 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA4DA09C2CB6FF370093BECC /* Realm.xcframework */,
-				EA4DA09D2CB6FF370093BECC /* RealmSwift.xcframework */,
 				689EE69A2BECC07800927D51 /* AmityUIKit.framework */,
 				684AE1332B0C968F00FD7270 /* AmitySDK.xcframework */,
 				684AE10E2B0C5D2000FD7270 /* AmitySDK.xcframework */,
