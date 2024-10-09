@@ -660,8 +660,8 @@
 		D4D7683E26006D7000AD4367 /* AmitySettingContentIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7683D26006D7000AD4367 /* AmitySettingContentIcon.swift */; };
 		D4EC11E525B93DCE0095F507 /* AmityPostSharingSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC11E425B93DCE0095F507 /* AmityPostSharingSettings.swift */; };
 		D4EC11EA25B93E000095F507 /* AmityPostSharingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EC11E925B93E000095F507 /* AmityPostSharingTarget.swift */; };
-		EA96603B2CAEDA5A003EC311 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA96602D2CAEDA34003EC311 /* Realm.xcframework */; };
-		EA96603D2CAEDA5A003EC311 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA96602E2CAEDA35003EC311 /* RealmSwift.xcframework */; };
+		EA4DA0972CB6FF1D0093BECC /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DA0952CB6FF1D0093BECC /* Realm.xcframework */; };
+		EA4DA0992CB6FF1D0093BECC /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DA0962CB6FF1D0093BECC /* RealmSwift.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -759,7 +759,6 @@
 		68B30A752B70E38B006A4102 /* AmityStoryCommentSettingsScreenViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmityStoryCommentSettingsScreenViewModelProtocol.swift; sourceTree = "<group>"; };
 		68B30A762B70E38B006A4102 /* AmityStoryCommentSettingsScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmityStoryCommentSettingsScreenViewModel.swift; sourceTree = "<group>"; };
 		68B30A782B70E38B006A4102 /* AmityStoryCommentSettingsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmityStoryCommentSettingsItem.swift; sourceTree = "<group>"; };
-		68EF84A529B077CF00C7EDEC /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = Shared/RealmSwift.xcframework; sourceTree = "<group>"; };
 		68F0EE052BC6BBDF004B3AA4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		68F5D9F92B481E4000A9FA0D /* AmityUIKit4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AmityUIKit4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		720D59992525BDB1009734EF /* DispatchGroupWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupWrapper.swift; sourceTree = "<group>"; };
@@ -1148,7 +1147,6 @@
 		97E21E83264D244200F19CB3 /* AmityGroupChatEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityGroupChatEditViewController.swift; sourceTree = "<group>"; };
 		97E21E84264D244200F19CB3 /* AmityGroupChatEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmityGroupChatEditViewController.xib; sourceTree = "<group>"; };
 		97E21E8A264D266C00F19CB3 /* AmityGroupChatEditScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityGroupChatEditScreenViewModel.swift; sourceTree = "<group>"; };
-		A052EAD42577A0FF00FF9312 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = Shared/Realm.xcframework; sourceTree = "<group>"; };
 		A062145327004E9800037C34 /* UIViewController+PostCreateDialogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PostCreateDialogue.swift"; sourceTree = "<group>"; };
 		A06214792709864100037C34 /* PostGalleryEmptyStateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGalleryEmptyStateCell.swift; sourceTree = "<group>"; };
 		A062147A2709864100037C34 /* PostGalleryEmptyStateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostGalleryEmptyStateCell.xib; sourceTree = "<group>"; };
@@ -1335,10 +1333,8 @@
 		D4D7683D26006D7000AD4367 /* AmitySettingContentIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmitySettingContentIcon.swift; sourceTree = "<group>"; };
 		D4EC11E425B93DCE0095F507 /* AmityPostSharingSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityPostSharingSettings.swift; sourceTree = "<group>"; };
 		D4EC11E925B93E000095F507 /* AmityPostSharingTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityPostSharingTarget.swift; sourceTree = "<group>"; };
-		EA96602D2CAEDA34003EC311 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Realm.xcframework; sourceTree = "<group>"; };
-		EA96602E2CAEDA35003EC311 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; path = RealmSwift.xcframework; sourceTree = "<group>"; };
-		EAF377BF2CAED89F007AA244 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../../../Downloads/amitysdk/Frameworks/Realm.xcframework; sourceTree = "<group>"; };
-		EAF377C02CAED89F007AA244 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../../../Downloads/amitysdk/Frameworks/RealmSwift.xcframework; sourceTree = "<group>"; };
+		EA4DA0952CB6FF1D0093BECC /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../../ThirdParty/Realm.xcframework; sourceTree = "<group>"; };
+		EA4DA0962CB6FF1D0093BECC /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../../ThirdParty/RealmSwift.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1348,8 +1344,8 @@
 			files = (
 				688A703A2C808EC300527488 /* SharedFrameworks in Frameworks */,
 				68F5D9FA2B481E4000A9FA0D /* AmityUIKit4.framework in Frameworks */,
-				EA96603B2CAEDA5A003EC311 /* Realm.xcframework in Frameworks */,
-				EA96603D2CAEDA5A003EC311 /* RealmSwift.xcframework in Frameworks */,
+				EA4DA0972CB6FF1D0093BECC /* Realm.xcframework in Frameworks */,
+				EA4DA0992CB6FF1D0093BECC /* RealmSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2077,15 +2073,11 @@
 		72928FA524EA834A00BF566D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EAF377BF2CAED89F007AA244 /* Realm.xcframework */,
-				EAF377C02CAED89F007AA244 /* RealmSwift.xcframework */,
-				EA96602D2CAEDA34003EC311 /* Realm.xcframework */,
-				EA96602E2CAEDA35003EC311 /* RealmSwift.xcframework */,
+				EA4DA0952CB6FF1D0093BECC /* Realm.xcframework */,
+				EA4DA0962CB6FF1D0093BECC /* RealmSwift.xcframework */,
 				68F5D9F92B481E4000A9FA0D /* AmityUIKit4.framework */,
 				6857F6C82B2AE15C00AC2914 /* AmityUIKit4.framework */,
-				68EF84A529B077CF00C7EDEC /* RealmSwift.xcframework */,
 				D45D459F26203D57008F7C2C /* AmitySDK.xcframework */,
-				A052EAD42577A0FF00FF9312 /* Realm.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -5403,7 +5395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 37Z583JR6K;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5438,7 +5430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 37Z583JR6K;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
