@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DD47C812EAF154B003A5F37 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD47C7F2EAF154B003A5F37 /* Realm.xcframework */; };
+		5DD47C832EAF154B003A5F37 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD47C802EAF154B003A5F37 /* RealmSwift.xcframework */; };
 		68F2B9E72E72D3F100B611C0 /* SharedFrameworks in Frameworks */ = {isa = PBXBuildFile; productRef = 68F2B9E62E72D3F100B611C0 /* SharedFrameworks */; };
 		92952FDF2CC0E78E0012B2B9 /* LivestreamPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92952FDE2CC0E78E0012B2B9 /* LivestreamPlayerView.swift */; };
 		92952FE52CC5B1F90012B2B9 /* RecordedStreamPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92952FE42CC5B1F90012B2B9 /* RecordedStreamPlayerView.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DD47C7F2EAF154B003A5F37 /* Realm.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Amity Technologies (Thailand) Co., Ltd."; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = ../Realm.xcframework; sourceTree = "<group>"; };
+		5DD47C802EAF154B003A5F37 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Amity Technologies (Thailand) Co., Ltd."; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = ../RealmSwift.xcframework; sourceTree = "<group>"; };
 		688F8615299E408F000FE6E7 /* SharedFrameworks */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SharedFrameworks; path = ../SharedFrameworks; sourceTree = "<group>"; };
 		92952FDE2CC0E78E0012B2B9 /* LivestreamPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivestreamPlayerView.swift; sourceTree = "<group>"; };
 		92952FE42CC5B1F90012B2B9 /* RecordedStreamPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordedStreamPlayerView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			files = (
 				68F2B9E72E72D3F100B611C0 /* SharedFrameworks in Frameworks */,
 				A0BD0B3426DDD9820054088B /* AmityUIKit.framework in Frameworks */,
+				5DD47C812EAF154B003A5F37 /* Realm.xcframework in Frameworks */,
+				5DD47C832EAF154B003A5F37 /* RealmSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +167,8 @@
 		A0BD0B2026DCE5310054088B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5DD47C7F2EAF154B003A5F37 /* Realm.xcframework */,
+				5DD47C802EAF154B003A5F37 /* RealmSwift.xcframework */,
 				A0BD0B3726DDDE880054088B /* AmitySDK.xcframework */,
 				A0BD0B3326DDD9820054088B /* AmityUIKit.framework */,
 				A0BD0B2326DCE5310054088B /* AmityLiveVideoBroadcastKit.xcframework */,

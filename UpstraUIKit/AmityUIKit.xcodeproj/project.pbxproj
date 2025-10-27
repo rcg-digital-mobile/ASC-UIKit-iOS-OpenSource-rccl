@@ -77,6 +77,8 @@
 		1A95A5242514C0A70018888F /* AmityFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A95A5232514C0A70018888F /* AmityFile.swift */; };
 		1A95A5262514E8620018888F /* AmityFileExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A95A5252514E8620018888F /* AmityFileExtension.swift */; };
 		1AF0D2CA251371780083D12C /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF0D2C9251371780083D12C /* Log.swift */; };
+		5DD47C792EAF1525003A5F37 /* Realm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD47C782EAF1525003A5F37 /* Realm.xcframework */; };
+		5DD47C7D2EAF152F003A5F37 /* RealmSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD47C7C2EAF152F003A5F37 /* RealmSwift.xcframework */; };
 		68251A632ADEA16200395696 /* AmityPreviewLinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68251A612ADEA16200395696 /* AmityPreviewLinkCell.swift */; };
 		68251A642ADEA16200395696 /* AmityPreviewLinkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68251A622ADEA16200395696 /* AmityPreviewLinkCell.xib */; };
 		6860B01B2ADE3D650042ED45 /* AmityPreviewLinkWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860B01A2ADE3D650042ED45 /* AmityPreviewLinkWizard.swift */; };
@@ -743,6 +745,8 @@
 		1A95A5232514C0A70018888F /* AmityFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityFile.swift; sourceTree = "<group>"; };
 		1A95A5252514E8620018888F /* AmityFileExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityFileExtension.swift; sourceTree = "<group>"; };
 		1AF0D2C9251371780083D12C /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		5DD47C782EAF1525003A5F37 /* Realm.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Amity Technologies (Thailand) Co., Ltd."; lastKnownFileType = wrapper.xcframework; path = Realm.xcframework; sourceTree = "<group>"; };
+		5DD47C7C2EAF152F003A5F37 /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Amity Technologies (Thailand) Co., Ltd."; lastKnownFileType = wrapper.xcframework; path = RealmSwift.xcframework; sourceTree = "<group>"; };
 		68251A612ADEA16200395696 /* AmityPreviewLinkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityPreviewLinkCell.swift; sourceTree = "<group>"; };
 		68251A622ADEA16200395696 /* AmityPreviewLinkCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmityPreviewLinkCell.xib; sourceTree = "<group>"; };
 		6857F6C82B2AE15C00AC2914 /* AmityUIKit4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AmityUIKit4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -757,7 +761,6 @@
 		68B30A752B70E38B006A4102 /* AmityStoryCommentSettingsScreenViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmityStoryCommentSettingsScreenViewModelProtocol.swift; sourceTree = "<group>"; };
 		68B30A762B70E38B006A4102 /* AmityStoryCommentSettingsScreenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmityStoryCommentSettingsScreenViewModel.swift; sourceTree = "<group>"; };
 		68B30A782B70E38B006A4102 /* AmityStoryCommentSettingsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmityStoryCommentSettingsItem.swift; sourceTree = "<group>"; };
-		68EF84A529B077CF00C7EDEC /* RealmSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:37Z583JR6K:Eko Corporation Company Limited"; lastKnownFileType = wrapper.xcframework; name = RealmSwift.xcframework; path = Shared/RealmSwift.xcframework; sourceTree = "<group>"; };
 		68F0EE052BC6BBDF004B3AA4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		68F5D9F92B481E4000A9FA0D /* AmityUIKit4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AmityUIKit4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		720D59992525BDB1009734EF /* DispatchGroupWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupWrapper.swift; sourceTree = "<group>"; };
@@ -1146,7 +1149,6 @@
 		97E21E83264D244200F19CB3 /* AmityGroupChatEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityGroupChatEditViewController.swift; sourceTree = "<group>"; };
 		97E21E84264D244200F19CB3 /* AmityGroupChatEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmityGroupChatEditViewController.xib; sourceTree = "<group>"; };
 		97E21E8A264D266C00F19CB3 /* AmityGroupChatEditScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmityGroupChatEditScreenViewModel.swift; sourceTree = "<group>"; };
-		A052EAD42577A0FF00FF9312 /* Realm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Realm.xcframework; path = Shared/Realm.xcframework; sourceTree = "<group>"; };
 		A062145327004E9800037C34 /* UIViewController+PostCreateDialogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+PostCreateDialogue.swift"; sourceTree = "<group>"; };
 		A06214792709864100037C34 /* PostGalleryEmptyStateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGalleryEmptyStateCell.swift; sourceTree = "<group>"; };
 		A062147A2709864100037C34 /* PostGalleryEmptyStateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostGalleryEmptyStateCell.xib; sourceTree = "<group>"; };
@@ -1342,6 +1344,8 @@
 			files = (
 				68F2B9E52E72D3E300B611C0 /* SharedFrameworks in Frameworks */,
 				68F5D9FA2B481E4000A9FA0D /* AmityUIKit4.framework in Frameworks */,
+				5DD47C792EAF1525003A5F37 /* Realm.xcframework in Frameworks */,
+				5DD47C7D2EAF152F003A5F37 /* RealmSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2069,11 +2073,11 @@
 		72928FA524EA834A00BF566D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5DD47C7C2EAF152F003A5F37 /* RealmSwift.xcframework */,
+				5DD47C782EAF1525003A5F37 /* Realm.xcframework */,
 				68F5D9F92B481E4000A9FA0D /* AmityUIKit4.framework */,
 				6857F6C82B2AE15C00AC2914 /* AmityUIKit4.framework */,
-				68EF84A529B077CF00C7EDEC /* RealmSwift.xcframework */,
 				D45D459F26203D57008F7C2C /* AmitySDK.xcframework */,
-				A052EAD42577A0FF00FF9312 /* Realm.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

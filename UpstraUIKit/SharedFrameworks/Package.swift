@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "SharedFrameworks",
-            targets: ["SharedFrameworks", "AmitySDK", "Realm", "RealmSwift", "AmityLiveVideoBroadcastKit", "AmityVideoPlayerKit", "MobileVLCKit"]),
+            targets: ["SharedFrameworks", "AmitySDK", "AmityLiveVideoBroadcastKit", "AmityVideoPlayerKit", "MobileVLCKit"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -26,16 +26,6 @@ let package = Package(
                     url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/4.12.0/AmitySDK.xcframework.zip",
                     checksum: "31e2bb135560e3c327017e5378446535297a035016709a359765d2d2ea10cd17"
                 ),
-        .binaryTarget(
-            name: "Realm",
-            url: "https://sdk.amity.co/sdk-release/realm-frameworks/10.50.0/Realm.xcframework.zip",
-            checksum: "67a140737ba2fd92e0da9b692ab6dd6b8d7ede90bd4292152e9d6d19f70b6d38"
-        ),
-        .binaryTarget(
-            name: "RealmSwift",
-            url: "https://sdk.amity.co/sdk-release/realm-frameworks/10.50.0/RealmSwift.xcframework.zip",
-            checksum: "1f6c3d9580a811afbc04a3a2726327719c76d988224ddb694e7eefaf49e31b10"
-        ),
         .binaryTarget(
                     name: "AmityLiveVideoBroadcastKit",
                     url: "https://sdk.amity.co/sdk-release/ios-uikit-frameworks/4.12.0/AmityLiveVideoBroadcastKit.xcframework.zip",
